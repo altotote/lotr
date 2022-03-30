@@ -1,0 +1,20 @@
+.vid{
+    filter: grayscale(50%);
+    background-color: rgb(9, 1, 43);
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgb(212, 175, 55);
+    background-color: rgba(0, 0, 0, .4);
+
+}
+.fit{
+    max-height: 100vh;
+    object-fit: cover;
+    filter: grayscale(.3);
+}
